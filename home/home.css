@@ -213,12 +213,87 @@ a {
     color: var(--branco);
 }
 
+/* Banner recomendados */
+
 .banner-recomendados {
-    margin-top: 50px;
-    margin-bottom: 20px;
+    margin: 60px;
 }
 
-.livros-recomendados > img{
+.banner-recomendados .titulo-secao {
+    padding-bottom: 100px;
+}
+
+.livros-recomendados {
     display: flex;
+    gap: 120px;
+    align-items: baseline;
+    justify-content: center;
     
 }
+
+.livros-recomendados h3 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.livros-recomendados h4 {
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: 500;
+}
+
+.livros-recomendados .livros:nth-child(1) h3 {
+   width: 180px;
+}
+
+.livros-recomendados .livros:nth-child(1) img {
+   width: 100%;
+   height: 300px;
+}
+
+/* Rodape */
+
+footer{
+    background-color: var(--azul-escuro);
+    height: 400px;
+}
+
+.informacoes {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 120px 0 120px;
+}
+
+.informacoes .logos {
+    display: flex;
+    flex-direction: column;
+}
+
+.informacoes .parte-cima {
+    color: var(--branco);
+    display: flex;
+    gap: 100px;
+}
+
+.informacoes .parte-cima h4 {
+    color: var(--cor-destaque);
+    margin: 10px;
+}
+
+.informacoes .parte-cima a {
+    display: flex;
+    flex-direction: column;
+   margin: 10px;
+    font-weight: 300;
+}
+
+.informacoes .parte-cima .conteudo:nth-child(3) {
+    display: flex;
+    height: 30%;
+    align-items: center;
+    margin-left: 50px;
+    gap: 20px;
+}
+
+
